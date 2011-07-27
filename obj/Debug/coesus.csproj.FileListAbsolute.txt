@@ -1,0 +1,5 @@
+C:\Documents and Settings\praktikant\My Documents\Visual Studio 2008\Projects\coesus\coesus\trunk\bin\Debug\coesus.exe
+C:\Documents and Settings\praktikant\My Documents\Visual Studio 2008\Projects\coesus\coesus\trunk\bin\Debug\coesus.pdb
+C:\Documents and Settings\praktikant\My Documents\Visual Studio 2008\Projects\coesus\coesus\trunk\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\praktikant\My Documents\Visual Studio 2008\Projects\coesus\coesus\trunk\obj\Debug\coesus.exe
+C:\Documents and Settings\praktikant\My Documents\Visual Studio 2008\Projects\coesus\coesus\trunk\obj\Debug\coesus.pdb
