@@ -8,12 +8,25 @@ namespace coesus
     {
         public class clStorage
         {
+            public enum PWtypes { Plain, MD5, SHA1 };
             public int MySQLport;
             public String MySQLaddr;
+            public String MySQLusername, MySQLpassword, MySQLdatabase, MySQLtable;
+            public String MySQLusernameColumn, MySQLpasswordColumn;
+            public PWtypes MySQLpasswordType;
+            public Boolean MySQLSecure;
             public clStorage()
             {
                 MySQLaddr = "localhost";
                 MySQLport = 3306;
+                MySQLusername = "root";
+                MySQLpassword = "root";
+                MySQLdatabase = "db";
+                MySQLtable = "members";
+                MySQLusernameColumn = "username";
+                MySQLpasswordColumn = "password";
+                MySQLpasswordType = PWtypes.MD5;
+                MySQLSecure = false;
             }
         }
         public class clSuperuser
@@ -63,6 +76,13 @@ namespace coesus
         // constructor
         public  Settings()
         {
+        }
+
+        public static void _Apply(String[] args)
+        {
+            InitParameters parameters = new InitParameters(args);
+
+            // TODO: apply parameters here + print help
         }
     }
 }
