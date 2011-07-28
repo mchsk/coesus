@@ -80,28 +80,5 @@ namespace coesus
                 return (Parameters[Param]);
             }
         }
-
-        public int UpdateSettings(String param)
-        {
-            try
-            {
-                return Int32.Parse(Parameters[param]);
-            }
-            catch (Exception ex)
-            {
-                return -1;
-            }
-        }
-        public String UpdateSettings(String param)
-        {
-            try
-            {
-                return Parameters[param];
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
     }
 }
