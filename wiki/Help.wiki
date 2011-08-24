@@ -4,7 +4,7 @@
 
 There is some help..here we go:
 
-<code>
+{{{
  - H E L P - - - - - - - - - - - - - - - -
   coesus.exe >
    --help                               Prints this help.
@@ -26,4 +26,4 @@ There is some help..here we go:
    -port                                Listeting port [d. 13370]
    -maxclients                          Max clients [d. 0 = infinite]
    -plugins plguns_subdirectory         Plugins' subdir. [d. 0 = plugins]
-</code>
+}}}
