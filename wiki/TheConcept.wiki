@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary The concept here is to make this app as much flexible server as it can be.
 
 = The Concept. =
 well yea, here s my idea :)
