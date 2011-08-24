@@ -27,3 +27,4 @@ There is some help..here we go:
    -maxclients                          Max clients [d. 0 = infinite]
    -plugins plguns_subdirectory         Plugins' subdir. [d. 0 = plugins]
 }}}
+colorful meaningless syntax ftw!
