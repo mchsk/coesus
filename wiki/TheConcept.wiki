@@ -1,4 +1,4 @@
 #summary One-sentence summary of this page.
 
 = The Concept. =
-http://coesus.googlecode.com/svn/wiki/coesus.svg
+http://coesus.googlecode.com/svn/wiki/screen01.png
