@@ -1,0 +1,7 @@
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\Release\_interface.dll.config
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\Release\_interface.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\Release\_interface.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\obj\Release\_interface.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\obj\Release\_interface.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\Release\mysql.data.dll

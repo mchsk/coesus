@@ -1,0 +1,8 @@
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\PunBB\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\PunBB\obj\Release\PunBB.csproj.GenerateResource.Cache
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\PunBB.dll.config
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\PunBB.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\PunBB.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\PunBB\obj\Release\PunBB.Properties.Resources.resources
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\PunBB\obj\Release\PunBB.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\PunBB\obj\Release\PunBB.pdb

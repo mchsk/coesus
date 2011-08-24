@@ -1,0 +1,8 @@
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\Login\obj\Release\ResolveAssemblyReference.cache
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\Login\obj\Release\Login.csproj.GenerateResource.Cache
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\Login\obj\Release\Login.Properties.Resources.resources
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\Login.dll.config
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\Login.dll
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\plugins\Login.pdb
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\Login\obj\Release\Login.dll
+c:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_plugins\Login\obj\Release\Login.pdb

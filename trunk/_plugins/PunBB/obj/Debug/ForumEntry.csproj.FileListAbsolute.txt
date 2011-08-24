@@ -1,0 +1,8 @@
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\bin\Debug\ForumEntry.dll.config
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\bin\Debug\ForumEntry.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\bin\Debug\ForumEntry.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\bin\Debug\PluginHandler.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\bin\Debug\PluginHandler.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\obj\Debug\ForumEntry.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\ForumEntry\obj\Debug\ForumEntry.pdb
