@@ -5,4 +5,4 @@
 Is the developer single? Haha.
   * No.
 I downloaded the application but does not work, wtf?!
-  * You guys need to download .NET 2.0 libraries (http://www.microsoft.com/download/en/details.aspx?id=19)
+  * You guys need to download .NET 2.0 libraries from the year of 2006. (http://www.microsoft.com/download/en/details.aspx?id=19)
