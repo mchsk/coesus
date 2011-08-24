@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
+using System.Reflection;
+
 
 namespace coesus
 {
@@ -8,12 +11,12 @@ namespace coesus
     {
         public class clStorage
         {
-            public enum PWtypes { plain, MD5, SHA1 };
+            public enum PWtypes { plain, MD5, SaltMD5, SHA1 };
             public int MySQLport;
             public String MySQLaddr;
             public String MySQLusername, MySQLpassword, MySQLdatabase, MySQLtable;
-            public String MySQLusernameColumn, MySQLpasswordColumn;
-            public PWtypes MySQLpasswordType;
+            public String MySQLusernameColumn, MySQLpasswordColumn, MySQLsaltColumn;
+            //public PWtypes MySQLpasswordType;//depr
             public Boolean MySQLSecure;
             public clStorage()
             {
@@ -25,7 +28,8 @@ namespace coesus
                 MySQLtable = "members";
                 MySQLusernameColumn = "username";
                 MySQLpasswordColumn = "password";
-                MySQLpasswordType = PWtypes.MD5;
+                MySQLsaltColumn = null;
+                //MySQLpasswordType = PWtypes.MD5;//--deprecated
                 MySQLSecure = false;
             }
         }
@@ -41,16 +45,20 @@ namespace coesus
         }
         public class clServer
         {
-            public int Verbosity;
+            public Int16 Verbosity;
             public String LogFile;
             public DateTime StartingTime;
-            public bool PrintHelp;
+            public Boolean PrintHelp;
+            public String appDirectory;
+            public String pluginsSubdirectory;
             public clServer()
             {
+                appDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
                 Verbosity = 1;
                 LogFile = "log.txt";
                 StartingTime = DateTime.Now;
                 PrintHelp = false;
+                pluginsSubdirectory = "plugins";
             }
             public TimeSpan Runtime()
             {
@@ -80,7 +88,10 @@ namespace coesus
         public  Settings()
         {
         }
+        public static void _DebugInit()
+        {
 
+        }
         public static void _Apply(String[] args)
         {
             InitParameters parameters = new InitParameters(args);
@@ -99,7 +110,7 @@ namespace coesus
                     //Verbosity
                     if (parameters["v"] != null)
                     {
-                        Server.Verbosity = int.Parse(parameters["v"]);
+                        Server.Verbosity = Int16.Parse(parameters["v"]);
                     }
                     //MySQL address
                     if (parameters["m-addr"] != null)
@@ -141,14 +152,20 @@ namespace coesus
                     {
                         Storage.MySQLpasswordColumn = parameters["m-pcol"];
                     }
-                    //MySQL passwordtype
-                    if (parameters["m-passtype"] != null)
+                    //MySQL salt column
+                    if (parameters["m-scol"] != null)
                     {
-                        String pwtype = parameters["m-passtype"];
-                        if (String.Compare(pwtype, "plain") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.plain; }
-                        if (String.Compare(pwtype, "MD5") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.MD5; }
-                        if (String.Compare(pwtype, "SHA1") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.SHA1; }
+                        Storage.MySQLsaltColumn = parameters["m-scol"];
                     }
+                    //MySQL passwordtype --deprecated
+                    //if (parameters["m-passtype"] != null)
+                    //{
+                    //    String pwtype = parameters["m-passtype"];
+                    //    if (String.Compare(pwtype, "plain") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.plain; }
+                    //    if (String.Compare(pwtype, "MD5") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.MD5; }
+                    //    if (String.Compare(pwtype, "SaltMD5") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.SaltMD5; }
+                    //    if (String.Compare(pwtype, "SHA1") == 0) { Storage.MySQLpasswordType = clStorage.PWtypes.SHA1; }
+                    //}
                     //MySQL secure
                     if (parameters["m-secure"] != null)
                     {
@@ -180,8 +197,14 @@ namespace coesus
                     {
                         Clients.MaxClients = int.Parse(parameters["maxclients"]);
                     }
+                    //Plugins directory
+                    if (parameters["plugins"] != null)
+                    {
+                        Server.pluginsSubdirectory=parameters["plugins"];
+                    }
+
                 }
-                catch (Exception ex)
+                catch
                 {
                     Server.PrintHelp = true;
                 }

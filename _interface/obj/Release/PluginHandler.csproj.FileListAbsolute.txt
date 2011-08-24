@@ -1,0 +1,6 @@
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\bin\Release\PluginHandler.dll.config
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\bin\Release\PluginHandler.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\bin\Release\PluginHandler.pdb
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\obj\Release\PluginHandler.dll
+C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\PluginHandler\obj\Release\PluginHandler.pdb
