@@ -1,4 +1,4 @@
-#summary Frequently asked question
+#summary Well-known "Frequently asked questions" section
 
 = FAQ =
 
