@@ -5,6 +5,9 @@ using MySql.Data.MySqlClient;
 
 namespace _interface
 {
+    /// <summary>
+    /// app interface
+    /// </summary>
     public interface IAppIface
     {
         void CustomEventCallingMethod();

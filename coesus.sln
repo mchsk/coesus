@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coesus", "trunk\coesus.csproj", "{1339DFE7-D8C9-4250-9623-2BD18B4990AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunBB", "trunk\_plugins\PunBB\PunBB.csproj", "{80CE8A26-2D7A-4527-B2B4-8F63647A552A}"

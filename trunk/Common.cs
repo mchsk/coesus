@@ -12,6 +12,10 @@ namespace coesus
 {
     public class Common
     {
+
+        /// <summary>
+        /// sub-class representing an instance of plugin within the list
+        /// </summary>
         public class clPlugins
         {
             public String path;
@@ -23,6 +27,8 @@ namespace coesus
                 this.path = path;
             }
         }
+
+        // plugin list
         public static List<clPlugins> plugins = new List<clPlugins>();
 
 
@@ -46,6 +52,7 @@ namespace coesus
 					}
 				catch(Exception e)
 					{
+                        // we know this is not a regural .net dll
                         clp.error = ".NET assembly error";
                         plugins.Add(clp);
 					}
@@ -118,6 +125,12 @@ namespace coesus
             
         }
 
+        /// <summary>
+        /// parses command
+        /// </summary>
+        /// <param name="user">given username</param>
+        /// <param name="line">line is command before recognising</param>
+        /// <returns></returns>
         public static String ParseCommand(String user, String line)
         {
             String cmd = String.Empty;
@@ -151,6 +164,13 @@ namespace coesus
             return res;
         }
 
+        /// <summary>
+        /// processes the command with arguments under the username
+        /// </summary>
+        /// <param name="username">given username</param>
+        /// <param name="command">command to execute</param>
+        /// <param name="arguments">arguments</param>
+        /// <returns></returns>
         public static String PreProcessCommand(String username,String command, String arguments)
         {
             bool Found = false;
@@ -187,7 +207,12 @@ namespace coesus
             }
         }
 
-        // tries to login the client using mysql
+        /// <summary>
+        /// tries to login the client using mysql
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public static Boolean LoginSuccess(String username, String password)
         {
             //connection string

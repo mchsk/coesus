@@ -9,6 +9,11 @@ namespace coesus
         // a dictionary
         private StringDictionary Parameters;
 
+
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="paramsBunch">commandline args</param>
         public InitParameters(String[] paramsBunch)
         {
             // vars

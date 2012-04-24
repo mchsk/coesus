@@ -4,10 +4,14 @@ using System.Text;
 using _interface;
 using MySql.Data.MySqlClient;
 
+/* E X A M P L E */
 
 
 namespace coesus
 {
+    /// <summary>
+    /// Can change profile details in MySQL in phpBB forum :)))))))))))
+    /// </summary>
     public class Plugin : IPluginIface
     {
         public static IAppIface mainProgram;

@@ -5,6 +5,9 @@ using System.Text;
 
 namespace _interface
 {
+    /// <summary>
+    /// plugin interface
+    /// </summary>
     public interface IPluginIface
     {
         //stores the base instance
@@ -26,7 +29,7 @@ namespace _interface
             get;
         }
 
-        //name of the plugin
+        //version of the plugin
         String Version
         {
             get;

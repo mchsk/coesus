@@ -53,7 +53,7 @@ namespace coesus
                 // "nice" termination
                 Console.CancelKeyPress += delegate
                 {
-                    // TODO:some clean-up here
+                    // TODO: some clean-up -- we have pressed CtrlC
                     Console.WriteLine();
                     Console.WriteLine("Quit by CTRL+C has been spelled.");
                 };

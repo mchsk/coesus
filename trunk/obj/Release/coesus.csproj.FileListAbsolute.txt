@@ -13,3 +13,12 @@ C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\obj\Release\Res
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\mysql.data.dll
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\_interface.dll
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\bin\Release\_interface.pdb
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\coesus.exe.config
+C:\Documents and Settings\mch\Plocha\coesus\trunk\obj\Release\coesus.exe
+C:\Documents and Settings\mch\Plocha\coesus\trunk\obj\Release\coesus.pdb
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\coesus.exe
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\coesus.pdb
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\mysql.data.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\_interface.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\bin\Release\_interface.pdb
+C:\Documents and Settings\mch\Plocha\coesus\trunk\obj\Release\ResolveAssemblyReference.cache
