@@ -7,8 +7,14 @@ using System.Reflection;
 
 namespace coesus
 {
+    /// <summary>
+    /// Main storage class.
+    /// </summary>
     public class Settings
     {
+        /// <summary>
+        /// Storage
+        /// </summary>
         public class clStorage
         {
             public enum PWtypes { plain, MD5, SaltMD5, SHA1 };
@@ -33,6 +39,9 @@ namespace coesus
                 MySQLSecure = false;
             }
         }
+        /// <summary>
+        /// SU
+        /// </summary>
         public class clSuperuser
         {
             public String AdminUsername;
@@ -43,6 +52,10 @@ namespace coesus
                 AdminUsername = "admin";
             }
         }
+
+        /// <summary>
+        /// Server
+        /// </summary>
         public class clServer
         {
             public Int16 Verbosity;
@@ -67,6 +80,10 @@ namespace coesus
                 return subtr;
             }
         }
+
+        /// <summary>
+        /// Client
+        /// </summary>
         public class clClients
         {
             public String ListeningAddr;
@@ -79,6 +96,8 @@ namespace coesus
             }
         }
 
+
+        // init ->>
         public static clStorage Storage = new clStorage();
         public static clSuperuser Superuser = new clSuperuser();
         public static clServer Server = new clServer();

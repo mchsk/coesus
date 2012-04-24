@@ -8,6 +8,9 @@ namespace coesus
 {
     static class Print
     {
+        /// <summary>
+        /// guess what!
+        /// </summary>
         public static void _Help()
         {
             Console.WriteLine(" - H E L P - - - - - - - - - - - - - - - - ");
@@ -35,6 +38,10 @@ namespace coesus
             Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - ");
         }
 
+        /// <summary>
+        /// gets the version
+        /// </summary>
+ 
         public static void _Version()
         {
             Console.BackgroundColor = ConsoleColor.Gray;
@@ -53,6 +60,9 @@ namespace coesus
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
+        /// <summary>
+        /// prints nice header ..or not nice.
+        /// </summary>
         public static void _Title()
         {
             Console.BackgroundColor = ConsoleColor.White;
@@ -65,6 +75,10 @@ namespace coesus
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
+
+        /// <summary>
+        /// prints out the initial settings
+        /// </summary>
         public static void _Settings()
         {
             Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - ");
@@ -91,6 +105,9 @@ namespace coesus
             Console.WriteLine(" - - - - - - - - - - - - - - - - - - - - - ");
         }
 
+        /// <summary>
+        /// prints out the plugins with its capabilities
+        /// </summary>
         public static void _Plugins()
         {
             Console.WriteLine("= PLUGINS: ===============================");

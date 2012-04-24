@@ -5,3 +5,10 @@ C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\obj\Release\_interface.dll
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\obj\Release\_interface.pdb
 C:\Users\Sony\Documents\Visual Studio 2008\Projects\coesus\trunk\_interface\bin\Release\mysql.data.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\bin\Release\_interface.dll.config
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\bin\Release\_interface.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\bin\Release\_interface.pdb
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\bin\Release\mysql.data.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\obj\Release\_interface.dll
+C:\Documents and Settings\mch\Plocha\coesus\trunk\_interface\obj\Release\_interface.pdb

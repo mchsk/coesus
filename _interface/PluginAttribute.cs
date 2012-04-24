@@ -1,4 +1,4 @@
-﻿// Plugin class that extends the attribute class  
+﻿// plugin class that extends the attribute class  
 using System;
 
 namespace _interface
